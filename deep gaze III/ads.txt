@@ -1,0 +1,26 @@
+For script ads.py
+
+
+Processes multiple ad images automatically.
+
+Predicts heatmaps for all.
+
+Simulates scanpaths (4 fixations).
+
+Calculates simple clarity and entropy metrics.
+
+Displays comparisons easily.
+
+| Metric | Good if... | Means |
+|:----|:----|:----|
+| **Clarity** | High (close to 1.0) | Very focused attention. |
+| **Entropy** | Low (but not 0) | Viewer attention is concentrated, not everywhere. |
+
+
+
+Left panel: Ad + Simulated Scanpath 🔴
+
+Right panel: Attention Heatmap 🔥
+
+Above: Clarity score (how peaky the attention is) and Entropy (how scattered the attention is).
+
